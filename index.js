@@ -1,6 +1,6 @@
 const util = require('util')
 const EventEmitter = require('events').EventEmitter
-const Mouse = require('./build/Release/native-mouse.node').Mouse;
+const Mouse = require('./native-mouse.node').Mouse;
 
 class NativeMouseInstance extends EventEmitter {
 	constructor () {
